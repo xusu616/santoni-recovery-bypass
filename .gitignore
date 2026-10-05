@@ -1,5 +1,4 @@
 /local-only/
-/payloads/*
 !/payloads/SOURCES.md
 /tools/*
 !/tools/SOURCES.md
