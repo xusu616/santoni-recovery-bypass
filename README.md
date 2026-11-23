@@ -15,6 +15,9 @@ https://rd227.github.io/2026/10/02/redmi-4x-免解锁-9008-bypass-刷入rom/
 这是锁定 bootloader 下的**启动验证绕过，不是正式解锁**；未获得设备专属 Xiaomi 解锁签名，未验证 unlocked 标志变为 true，fastboot 写入限制可能仍在   可以忽略已登录的小米账号强制刷入
 ## 已验证的组合与原理
 
+>更好的root管理器与kernel/susfs：
+https://gitlab.com/xusu616/kernel_msm-4.19
+
 | 部件 | 本次使用的文件 |
 | --- | --- |
 | 主 aboot | MIUI 11 `V11.0.2.0.NAMMIXM` 的原始小米签名 MBN，仅补零到 1 MiB |
